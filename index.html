@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laurince Dugaduga</title>
+    <link rel="icon" type="image/x-icon" href="Gradpic.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4e48c3e35d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+             <nav>
+                <img src="Gradpic.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="https://laurinceee.github.io/inALL.github.io/?fbclid=IwZXh0bgNhZW0CMTAAAR3so9MVbkjDMEOUZvdpsxs5wuj0Dsh0C1DK-cptP18GUEdP1HAjzKqMdMU_aem_AUTQguOzDKGj076cc3N7kLz34IpRrB6KIgJ-Juo_p542venh3CC8F7zgE5hl6eu6IdGc1PFb62xpoIv2I7xQlznD">Log out</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+             </nav>
+             <div class="header-text">
+                <p></p>
+                <h1>Hi, i'm <span>Laurince Dugaduga</span><br></h1>
+             </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Iconnn.png">
+                    <div class="layer">
+                        <h3>Profile</h3>
+                        <p></p>
+                        <a href="Profile.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Schedule.png">
+                    <div class="layer">
+                        <h3>Schedule</h3>
+                        <p></p>
+                        <a href="Schedule.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Lyrics.png">
+                    <div class="layer">
+                        <h3>LyricsAudio</h3>
+                        <p></p>
+                        <a href="LyricsAudio.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            <div class="work">
+                <img src="Video.png">
+                <div class="layer">
+                    <h3>MusicVideo</h3>
+                    <p></p>
+                    <a href="MusicVideo.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        <div class="work">
+            <img src="Coffee.jpeg">
+            <div class="layer">
+                <h3>Coffee Menu</h3>
+                <p></p>
+                <a href="Coffee.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+            <a href="https://www.facebook.com/laurince.dugaduga?mibextid=ZbWKwL" class="btn">See more</a>
+        </div>
+    </div>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
